@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Light grey background for the body */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #007bff; /* Bootstrap primary color */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items in a row */
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Headings */
+h2 {
+    color: #343a40; /* Dark gray color for headings */
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block; /* Make labels block-level */
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px;
+    background-color: #fff; /* White background for table */
+}
+
+th, td {
+    border: 1px solid #dee2e6; /* Light gray border */
+    padding: 10px;
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #007bff; /* Blue background for table headers */
+    color: white; /* White text for headers */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark gray background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

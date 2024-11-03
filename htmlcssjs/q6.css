@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2 {
+    color: #004085;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.subtitle::after {
+    content: " - Simplify Your Advertising";
+    font-style: italic;
+    color: #ffc107;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #343a40;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+/* Section Titles */
+h2::before {
+    content: "📊 ";
+    color: #ffc107;
+}
+
+/* Dashboard Banner List */
+.banner-list {
+    display: flex;
+    gap: 20px;
+}
+
+.banner {
+    background-color: #e9ecef;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    transition: transform 0.2s;
+}
+
+.banner:hover {
+    transform: scale(1.05);
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.edit-btn, .delete-btn {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover, .edit-btn:hover {
+    opacity: 0.8;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.add-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+/* Analytics Section */
+.stats {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.analytics-list {
+    list-style: none;
+    padding: 0;
+}
+
+.analytics-list li {
+    margin: 10px 0;
+    color: #495057;
+}
+
+.analytics-list li:hover .ctr {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Management and Analytics</title>
+    <link rel="stylesheet" href="q6.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Banner Management and Analytics</h1>
+    <p class="subtitle">Manage, track, and analyze your banners effectively</p>
+</header>
+
+<!-- Navigation Links -->
+<nav>
+    <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#add-banner">Add New Banner</a></li>
+        <li><a href="#analytics">Analytics</a></li>
+    </ul>
+</nav>
+
+<!-- Main Content Section -->
+<div class="container">
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+        <div class="banner-list">
+            <div class="banner" id="banner1">
+                <img src="https://example.com/banner1.jpg" alt="Banner 1">
+                <p>Banner 1 - 300x250</p>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+            </div>
+            <div class="banner" id="banner2">
+                <img src="https://example.com/banner2.jpg" alt="Banner 2">
+                <p>Banner 2 - 728x90</p>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Banner Section -->
+    <section id="add-banner">
+        <h2>Add New Banner</h2>
+        <form action="#">
+            <label for="banner-name">Banner Name:</label>
+            <input type="text" id="banner-name" name="banner-name" required>
+
+            <label for="banner-url">Banner URL:</label>
+            <input type="url" id="banner-url" name="banner-url" required>
+
+            <label for="banner-size">Banner Size:</label>
+            <select id="banner-size" name="banner-size" required>
+                <option value="300x250">300x250</option>
+                <option value="728x90">728x90</option>
+                <option value="160x600">160x600</option>
+            </select>
+
+            <button type="submit" class="add-btn">Add Banner</button>
+        </form>
+    </section>
+
+    <!-- Analytics Section -->
+    <section id="analytics">
+        <h2>Analytics</h2>
+        <p class="stats">Hover over each banner below to view click-through rate (CTR) and impressions.</p>
+        <ul class="analytics-list">
+            <li>Banner 1 - <span class="ctr">CTR: 3.4%</span></li>
+            <li>Banner 2 - <span class="ctr">CTR: 5.8%</span></li>
+            <li>Banner 3 - <span class="ctr">CTR: 4.1%</span></li>
+        </ul>
+    </section>
+</div>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Banner Management and Analytics. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

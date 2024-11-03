@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="q10.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Event Planner</h1>
+
+    <!-- Event Input Form -->
+    <div class="event-input">
+        <input type="text" id="eventName" placeholder="Enter event name">
+        <input type="date" id="eventDate">
+        <button id="addEventButton">Add Event</button>
+    </div>
+
+    <!-- Error Message -->
+    <div id="errorMessage" class="error-message"></div>
+
+    <!-- Event List -->
+    <h2>Upcoming Events</h2>
+    <ul id="eventList">
+        <!-- Events will be added here dynamically -->
+    </ul>
+</div>
+
+<script src="q10.js"></script>
+</body>
+</html>

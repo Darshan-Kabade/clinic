@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pms.css">
+    <title>Pharmacy Management System</title>
+</head>
+<body>
+    <header>
+        <h1>Pharmacy Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#medicines">Medicines</a></li>
+                <li><a href="#add-medicine">Add Medicine</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to the Pharmacy Management System</h2>
+            <p>Manage your pharmacy efficiently with our easy-to-use interface.</p>
+        </section>
+
+        <section id="medicines">
+            <h2>Available Medicines</h2>
+            <table id="medicine-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Medicine items will be added here dynamically -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="add-medicine">
+            <h2>Add New Medicine</h2>
+            <form id="medicine-form">
+                <input type="text" id="medicine-name" placeholder="Medicine Name" required>
+                <input type="number" id="medicine-price" placeholder="Price" required>
+                <input type="number" id="medicine-quantity" placeholder="Quantity" required>
+                <button type="submit">Add Medicine</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pharmacy Management System</p>
+    </footer>
+
+    <script src="pms.js"></script>
+</body>
+</html>

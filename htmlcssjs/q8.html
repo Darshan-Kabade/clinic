@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Newspaper</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">NewsToday</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">World</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Technology</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to NewsToday</h1>
+    <p class="lead">Stay informed with the latest breaking news and updates.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Subscribe Now</a>
+</div>
+
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">World</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Latest News</li>
+    </ol>
+</nav>
+
+<!-- Main Content with Grid System -->
+<div class="container">
+    <div class="row">
+        <!-- Main Article Section -->
+        <div class="col-md-8">
+            <h2 class="mb-4">Top Stories</h2>
+            
+            <!-- Sample Articles -->
+            <div class="card mb-4">
+                <img src="https://via.placeholder.com/750x300" class="card-img-top" alt="Article Image">
+                <div class="card-body">
+                    <h5 class="card-title">Breaking News Title</h5>
+                    <p class="card-text">Summary of the news article goes here. This section includes a brief preview of the article content.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <img src="https://via.placeholder.com/750x300" class="card-img-top" alt="Article Image">
+                <div class="card-body">
+                    <h5 class="card-title">Another Headline</h5>
+                    <p class="card-text">Summary of the news article goes here. This section includes a brief preview of the article content.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar Section -->
+        <div class="col-md-4">
+            <h3>Newsletter Signup</h3>
+            <!-- Newsletter Signup Form -->
+            <form>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                </div>
+                <button type="submit" class="btn btn-secondary btn-block">Subscribe</button>
+            </form>
+
+            <h3 class="mt-4">Trending Topics</h3>
+            <!-- List Group for Topics -->
+            <ul class="list-group">
+                <li class="list-group-item">Global Economy</li>
+                <li class="list-group-item">Technology Innovations</li>
+                <li class="list-group-item">Entertainment News</li>
+                <li class="list-group-item">Political Updates</li>
+                <li class="list-group-item">Health and Wellness</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 NewsToday. All rights reserved.</p>
+    <p><a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Use</a></p>
+</footer>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
